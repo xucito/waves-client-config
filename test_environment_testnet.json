@@ -1,14 +1,24 @@
 {
   "name": "Testnet",
   "servers": {
-    "nodeUrl": "https://pool.testnet.wavesnodes.com",
-    "dataUrl": "https://api.testnet.wavesplatform.com",
+    "nodeUrl": "https://apitnetworktest.blackturtle.eu",
+    "dataUrl": "https://apitnetworktest.blackturtle.eu",
     "spamUrl": "https://raw.githubusercontent.com/wavesplatform/waves-community/master/Scam%20tokens%20according%20to%20the%20opinion%20of%20Waves%20Community.csv",
-    "matcherUrl": "https://matcher.testnet.wavesnodes.com",
+    "matcherUrl": "https://apitnetworktest.blackturtle.eu",
     "gatewayUrl": "https://gateways-dev.wvservices.com/api"
   },
-  "scheme": "T",
+  "scheme": "l",
   "generalAssets": [
+    {
+     "assetId": "TN",
+     "displayName": "TN",
+     "isFiat": false,
+     "isGateway": false,
+     "wavesId": "TN",
+     "gatewayId": "TN",
+     "gatewayType": "",
+     "addressRegEx": ""
+   },
     {
       "assetId": "WAVES",
       "displayName": "Waves",
