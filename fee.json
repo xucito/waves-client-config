@@ -6,7 +6,7 @@
       "add_smart_asset_fee": true,
       "add_smart_account_fee": true,
       "min_price_step": 100000,
-      "fee": 100000
+      "fee": 2000000
     },
     "3": {
       "fee": 100000000,
